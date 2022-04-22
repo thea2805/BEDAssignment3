@@ -16,7 +16,6 @@ namespace Assignment3.Models
         public Booking? Booking { get; set; }
 
         public int EmployeeId { get; set; }
-        public Employee? Employee { get; set; }
-
+        public Employee Employee { get; set; }
     }
 }

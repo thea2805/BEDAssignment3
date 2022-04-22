@@ -9,6 +9,6 @@ namespace Assignment3.Models
 
         public List<Employee> ListOfEmployees { get; set; }
 
-        public List<Booking> ListOfBookings { get; set; }
+        public List<Booking>? ListOfBookings { get; set; }
     }
 }
